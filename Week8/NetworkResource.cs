@@ -1,12 +1,11 @@
 ﻿namespace Week8;
 
-public class FileResource: Resource, IDisposable
+public class NetworkResource : Resource, IDisposable
 {
-
-    public FileResource(string name) : base(name)
+    public NetworkResource(string name) : base(name)
     {
-        
     }
+    
     
     public override void Open()
     {
@@ -30,7 +29,6 @@ public class FileResource: Resource, IDisposable
         Console.WriteLine($"File {Name} is closed");
         
     }
-    
 
     
 }

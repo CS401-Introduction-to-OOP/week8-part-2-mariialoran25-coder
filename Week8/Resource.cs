@@ -13,4 +13,5 @@ public abstract class Resource
     
     public abstract void Open();
     public abstract void Close();
+
 }
